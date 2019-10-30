@@ -1,22 +1,70 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  font-weight: bold;
+  font-size: 25px;
   color: white;
+  background: rgb(142, 185, 79);
+  padding: 20px;
+  border-bottom: 1.5px solid rgb(127, 162, 72);
+  margin-bottom: 10px;
+}
+.names {
+  text-transform: capitalize;
 }
 
-.App-link {
-  color: #09d3ac;
+li {
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+img {
+  border-radius: 62px;
+  margin: auto;
+}
+.imgbox {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  background-color: rgb(175, 206, 128);
+  display: flex;
+  align-items: center;
+}
+p {
+  line-height: 25px;
+  padding: 20px;
+  font-weight: bold;
+  border-bottom: #ccc solid 1px;
+  text-transform: capitalize;
+}
+div.cont {
+  line-height: 25px;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+a {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.email {
+  text-transform: inherit;
+}
+.arrow {
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 16px;
+  margin-left: 19px;
+  background: transparent;
 }
