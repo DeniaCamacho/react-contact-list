@@ -3,12 +3,12 @@ import users from "./user"
 
 function Contact(props) {
   const id = props.match.params.id
-  const user = users.find(user => user.id === id)
+  const user = users.find(user => user.id === Number(id)
 
   return (
     <div>
       <div className="imgbox">
-        <div className="arrow">&#8592;</div>
+        <Link className="arrow">&#8592;</Link>
         <img alt="contactPics" src={user.picture.large} />
       </div>
       <p>
