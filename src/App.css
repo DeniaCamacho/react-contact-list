@@ -2,8 +2,8 @@ html {
   box-sizing: border-box;
 }
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   box-sizing: inherit;
 }
 header {
@@ -28,7 +28,6 @@ li {
 }
 img {
   border-radius: 62px;
-  margin: auto;
 }
 .imgbox {
   padding-top: 40px;
@@ -61,10 +60,14 @@ a {
   text-transform: inherit;
 }
 .arrow {
-  font-size: 28px;
+  font-size: 31px;
   font-weight: bold;
   position: absolute;
   top: 16px;
   margin-left: 19px;
   background: transparent;
+}
+ul {
+  padding: 8px 10px 0px 10px;
+  margin: auto;
 }
